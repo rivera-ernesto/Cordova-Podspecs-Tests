@@ -18,3 +18,15 @@
 #define COCOAPODS_VERSION_MINOR_Cordova_Base 1
 #define COCOAPODS_VERSION_PATCH_Cordova_Base 0
 
+// Cordova/Plugins/Camera
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Camera
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Camera 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Camera 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Camera 0
+
+// CordovaPlugin-camera
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_camera
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_camera 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_camera 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_camera 3
+

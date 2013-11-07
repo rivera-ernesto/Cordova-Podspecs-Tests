@@ -1,0 +1,5 @@
+#include "Pods-CordovaPlugin-camera.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/CordovaPlugin-camera" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Cordova" "${PODS_ROOT}/Headers/CordovaPlugin-camera"
+OTHER_LDFLAGS = -ObjC ${PODS_CORDOVAPLUGIN_CAMERA_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

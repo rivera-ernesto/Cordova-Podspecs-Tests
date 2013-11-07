@@ -2,11 +2,16 @@ PODS:
   - Cordova (3.1.0):
     - Cordova/Base
   - Cordova/Base (3.1.0)
+  - Cordova/Plugins/Camera (3.1.0):
+    - CordovaPlugin-camera
+  - CordovaPlugin-camera (0.2.3):
+    - Cordova (>= 3.0.0)
 
 DEPENDENCIES:
-  - Cordova
+  - Cordova/Plugins/Camera
 
 SPEC CHECKSUMS:
   Cordova: d228f72b7c7e5823af9a8b6645f868daf81e6398
+  CordovaPlugin-camera: 18400d49cff7c7ea6e06afa03a82637e2c7f6303
 
 COCOAPODS: 0.25.0
