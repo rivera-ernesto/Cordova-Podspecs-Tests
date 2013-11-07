@@ -1,4 +1,4 @@
 
 platform :ios, '5.0'
 
-pod 'Cordova'
+pod 'Cordova/Plugins/Camera'
