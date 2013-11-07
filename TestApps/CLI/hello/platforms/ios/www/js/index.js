@@ -47,3 +47,25 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+//////////////////
+// Camera
+//////////////////
+function buttonClick() {
+    function onSuccess(imageURI) {
+        var image = document.getElementById('imageLink');
+        image.href = imageURI;
+        image.innerHTML = imageURI;
+    }
+    
+    function onSuccessBase64(encodedImage) {
+        var image = document.getElementById('myImage');
+        image.src = 'data:image/jpeg;base64, ' + encodedImage;
+    }
+    
+    function onFail(message) {
+        alert('Failed because: ' + message);
+    }
+    
+    navigator.camera.getPicture(onSuccessBase64, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL });
+}
