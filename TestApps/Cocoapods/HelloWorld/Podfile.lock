@@ -1,0 +1,12 @@
+PODS:
+  - Cordova (3.1.0):
+    - Cordova/Base
+  - Cordova/Base (3.1.0)
+
+DEPENDENCIES:
+  - Cordova
+
+SPEC CHECKSUMS:
+  Cordova: d228f72b7c7e5823af9a8b6645f868daf81e6398
+
+COCOAPODS: 0.25.0
