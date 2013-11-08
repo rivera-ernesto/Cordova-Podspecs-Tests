@@ -44,4 +44,7 @@
     <feature name="Battery">
         <param name="ios-package" value="CDVBattery" />
     </feature>
+    <feature name="Accelerometer">
+        <param name="ios-package" value="CDVAccelerometer" />
+    </feature>
 </widget>

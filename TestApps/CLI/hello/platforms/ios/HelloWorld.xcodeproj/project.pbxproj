@@ -39,6 +39,8 @@
 		3BD3515ED5B34554A5ED517C /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9BCFDC75E462E87571D57 /* CDVReachability.m */; };
 		58ED59C263D742A58BCFB84B /* SystemConfiguration.framework in Resources */ = {isa = PBXBuildFile; fileRef = 0A480A86CF084C01B197B8D4 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9E513B4EBCAF4A869401D41D /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7C4E78805473FA62A1270 /* CDVBattery.m */; };
+		AAA44ABA903240ACB0F1F34F /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEE0E316E240EF8C44507A /* CDVAccelerometer.m */; };
+		0FEDC863C1344376A1FCDD23 /* CoreMotion.framework in Resources */ = {isa = PBXBuildFile; fileRef = A6B652C90CD4480388E0A6F2 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,9 @@
 		0A480A86CF084C01B197B8D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		66D7C4E78805473FA62A1270 /* CDVBattery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVBattery.m"; path = "org.apache.cordova.battery-status/CDVBattery.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		5DF549F8F7994AECAD0F6EC0 /* CDVBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVBattery.h"; path = "org.apache.cordova.battery-status/CDVBattery.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3CEEE0E316E240EF8C44507A /* CDVAccelerometer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAccelerometer.m"; path = "org.apache.cordova.device-motion/CDVAccelerometer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8754FD0972F44749AD329A97 /* CDVAccelerometer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAccelerometer.h"; path = "org.apache.cordova.device-motion/CDVAccelerometer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A6B652C90CD4480388E0A6F2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,7 @@
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
 				B97AF45333CE473ABDA8B51D /* ImageIO.framework in Resources */,
 				58ED59C263D742A58BCFB84B /* SystemConfiguration.framework in Resources */,
+				0FEDC863C1344376A1FCDD23 /* CoreMotion.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +218,7 @@
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				8092B1BBF58540799F2FF8DB /* ImageIO.framework */,
 				0A480A86CF084C01B197B8D4 /* SystemConfiguration.framework */,
+				A6B652C90CD4480388E0A6F2 /* CoreMotion.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -240,6 +247,8 @@
 				C9CBC2EA223547B4A4AE0AAF /* CDVReachability.h */,
 				66D7C4E78805473FA62A1270 /* CDVBattery.m */,
 				5DF549F8F7994AECAD0F6EC0 /* CDVBattery.h */,
+				3CEEE0E316E240EF8C44507A /* CDVAccelerometer.m */,
+				8754FD0972F44749AD329A97 /* CDVAccelerometer.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -413,6 +422,7 @@
 				EE6E5CC13B264992A35CF392 /* CDVConnection.m in Sources */,
 				3BD3515ED5B34554A5ED517C /* CDVReachability.m in Sources */,
 				9E513B4EBCAF4A869401D41D /* CDVBattery.m in Sources */,
+				AAA44ABA903240ACB0F1F34F /* CDVAccelerometer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
