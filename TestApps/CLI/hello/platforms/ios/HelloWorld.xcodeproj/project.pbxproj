@@ -42,6 +42,7 @@
 		AAA44ABA903240ACB0F1F34F /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEE0E316E240EF8C44507A /* CDVAccelerometer.m */; };
 		0FEDC863C1344376A1FCDD23 /* CoreMotion.framework in Resources */ = {isa = PBXBuildFile; fileRef = A6B652C90CD4480388E0A6F2 /* CoreMotion.framework */; };
 		63D474387C6D472295EB8B9B /* CDVCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C61CE47C546559A80B4D2 /* CDVCompass.m */; };
+		99113D90AC664F61AACE2C08 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 816F0A5C976C47E2BCB0F1D9 /* CDVLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		A6B652C90CD4480388E0A6F2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		D90C61CE47C546559A80B4D2 /* CDVCompass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCompass.m"; path = "org.apache.cordova.device-orientation/CDVCompass.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		2212F0FD40DC42C89A4C8E82 /* CDVCompass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCompass.h"; path = "org.apache.cordova.device-orientation/CDVCompass.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		816F0A5C976C47E2BCB0F1D9 /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "org.apache.cordova.geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		D323DEC4CD034F1091468D8B /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +257,8 @@
 				8754FD0972F44749AD329A97 /* CDVAccelerometer.h */,
 				D90C61CE47C546559A80B4D2 /* CDVCompass.m */,
 				2212F0FD40DC42C89A4C8E82 /* CDVCompass.h */,
+				816F0A5C976C47E2BCB0F1D9 /* CDVLocation.m */,
+				D323DEC4CD034F1091468D8B /* CDVLocation.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -429,6 +434,7 @@
 				9E513B4EBCAF4A869401D41D /* CDVBattery.m in Sources */,
 				AAA44ABA903240ACB0F1F34F /* CDVAccelerometer.m in Sources */,
 				63D474387C6D472295EB8B9B /* CDVCompass.m in Sources */,
+				99113D90AC664F61AACE2C08 /* CDVLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
