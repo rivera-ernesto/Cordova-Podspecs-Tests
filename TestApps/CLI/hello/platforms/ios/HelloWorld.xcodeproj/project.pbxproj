@@ -59,6 +59,7 @@
 		9D5F0E99B3E34185A7FF7D39 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 581AEF9B497A48369D0245E5 /* CDVGlobalization.m */; };
 		6C03F632216C45118F8515E2 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A519118B8CC143CC9CA27808 /* CDVSplashScreen.m */; };
 		AD1CFE391EE744C5A9DE09BC /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBE58C8B23446B5A5209F51 /* CDVInAppBrowser.m */; };
+		A52E6539A1F340C6B5E90C36 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F93DD9E3E922486CBE839F5B /* CDVLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +160,8 @@
 		801B9B6C43AE4E57BD06C2F1 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		4FBE58C8B23446B5A5209F51 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		2445AB87BA6448998279B388 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F93DD9E3E922486CBE839F5B /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		51257139224E45E39E7DF133 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +335,8 @@
 				801B9B6C43AE4E57BD06C2F1 /* CDVSplashScreen.h */,
 				4FBE58C8B23446B5A5209F51 /* CDVInAppBrowser.m */,
 				2445AB87BA6448998279B388 /* CDVInAppBrowser.h */,
+				F93DD9E3E922486CBE839F5B /* CDVLogger.m */,
+				51257139224E45E39E7DF133 /* CDVLogger.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -521,6 +526,7 @@
 				9D5F0E99B3E34185A7FF7D39 /* CDVGlobalization.m in Sources */,
 				6C03F632216C45118F8515E2 /* CDVSplashScreen.m in Sources */,
 				AD1CFE391EE744C5A9DE09BC /* CDVInAppBrowser.m in Sources */,
+				A52E6539A1F340C6B5E90C36 /* CDVLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
