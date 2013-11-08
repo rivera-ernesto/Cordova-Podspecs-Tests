@@ -44,6 +44,8 @@
 		63D474387C6D472295EB8B9B /* CDVCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = D90C61CE47C546559A80B4D2 /* CDVCompass.m */; };
 		99113D90AC664F61AACE2C08 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 816F0A5C976C47E2BCB0F1D9 /* CDVLocation.m */; };
 		7E4DDAEA27304B4D8507DCFA /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9275CAD95BEB498C979FB944 /* CDVFile.m */; };
+		9CBF682732A44806980D7378 /* CDVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4FC912FBFA41EEBED73D33 /* CDVCapture.m */; };
+		A6330996A1D14257937AC8CB /* CDVCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8089FA1E5016451FB9583E8C /* CDVCapture.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,9 @@
 		D323DEC4CD034F1091468D8B /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		9275CAD95BEB498C979FB944 /* CDVFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVFile.m"; path = "org.apache.cordova.file/CDVFile.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		59FE3F3DAC6A45AB8EB6727C /* CDVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVFile.h"; path = "org.apache.cordova.file/CDVFile.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AB4FC912FBFA41EEBED73D33 /* CDVCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCapture.m"; path = "org.apache.cordova.media-capture/CDVCapture.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A6F6201779E74139AFADBC87 /* CDVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCapture.h"; path = "org.apache.cordova.media-capture/CDVCapture.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8089FA1E5016451FB9583E8C /* CDVCapture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVCapture.bundle"; path = "CDVCapture.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +218,7 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* HelloWorld-Info.plist */,
+				8089FA1E5016451FB9583E8C /* CDVCapture.bundle */,
 			);
 			name = Resources;
 			path = "HelloWorld/Resources";
@@ -264,6 +270,8 @@
 				D323DEC4CD034F1091468D8B /* CDVLocation.h */,
 				9275CAD95BEB498C979FB944 /* CDVFile.m */,
 				59FE3F3DAC6A45AB8EB6727C /* CDVFile.h */,
+				AB4FC912FBFA41EEBED73D33 /* CDVCapture.m */,
+				A6F6201779E74139AFADBC87 /* CDVCapture.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -401,6 +409,7 @@
 				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
 				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				A6330996A1D14257937AC8CB /* CDVCapture.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +450,7 @@
 				63D474387C6D472295EB8B9B /* CDVCompass.m in Sources */,
 				99113D90AC664F61AACE2C08 /* CDVLocation.m in Sources */,
 				7E4DDAEA27304B4D8507DCFA /* CDVFile.m in Sources */,
+				9CBF682732A44806980D7378 /* CDVCapture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
