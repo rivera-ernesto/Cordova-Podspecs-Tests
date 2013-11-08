@@ -2,16 +2,122 @@ PODS:
   - Cordova (3.1.0):
     - Cordova/Base
   - Cordova/Base (3.1.0)
+  - Cordova/Plugins (3.1.0):
+    - Cordova/Plugins/BatteryStatus
+    - Cordova/Plugins/Camera
+    - Cordova/Plugins/Console
+    - Cordova/Plugins/Contacts
+    - Cordova/Plugins/Device
+    - Cordova/Plugins/DeviceMotion
+    - Cordova/Plugins/DeviceOrientation
+    - Cordova/Plugins/Dialogs
+    - Cordova/Plugins/File
+    - Cordova/Plugins/FileTransfer
+    - Cordova/Plugins/Geolocation
+    - Cordova/Plugins/Globalization
+    - Cordova/Plugins/InAppBrowser
+    - Cordova/Plugins/Media
+    - Cordova/Plugins/MediaCapture
+    - Cordova/Plugins/NetworkInformation
+    - Cordova/Plugins/Splashscreen
+    - Cordova/Plugins/Vibration
+  - Cordova/Plugins/BatteryStatus (3.1.0):
+    - CordovaPlugin-battery-status
   - Cordova/Plugins/Camera (3.1.0):
     - CordovaPlugin-camera
+  - Cordova/Plugins/Console (3.1.0):
+    - CordovaPlugin-console
+  - Cordova/Plugins/Contacts (3.1.0):
+    - CordovaPlugin-contacts
+  - Cordova/Plugins/Device (3.1.0):
+    - CordovaPlugin-device
+  - Cordova/Plugins/DeviceMotion (3.1.0):
+    - CordovaPlugin-device-motion
+  - Cordova/Plugins/DeviceOrientation (3.1.0):
+    - CordovaPlugin-device-orientation
+  - Cordova/Plugins/Dialogs (3.1.0):
+    - CordovaPlugin-dialogs
+  - Cordova/Plugins/File (3.1.0):
+    - CordovaPlugin-file
+  - Cordova/Plugins/FileTransfer (3.1.0):
+    - CordovaPlugin-file-transfer
+  - Cordova/Plugins/Geolocation (3.1.0):
+    - CordovaPlugin-geolocation
+  - Cordova/Plugins/Globalization (3.1.0):
+    - CordovaPlugin-globalization
+  - Cordova/Plugins/InAppBrowser (3.1.0):
+    - CordovaPlugin-inappbrowser
+  - Cordova/Plugins/Media (3.1.0):
+    - CordovaPlugin-media
+  - Cordova/Plugins/MediaCapture (3.1.0):
+    - CordovaPlugin-media-capture
+  - Cordova/Plugins/NetworkInformation (3.1.0):
+    - CordovaPlugin-network-information
+  - Cordova/Plugins/Splashscreen (3.1.0):
+    - CordovaPlugin-splashscreen
+  - Cordova/Plugins/Vibration (3.1.0):
+    - CordovaPlugin-vibration
+  - CordovaPlugin-battery-status (0.2.3):
+    - Cordova (>= 3.0.0)
   - CordovaPlugin-camera (0.2.3):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-console (0.2.3):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-contacts (0.2.4):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-device (0.2.3):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-device-motion (0.2.2):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-device-orientation (0.3.1):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-dialogs (0.2.2):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-file (0.2.4):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-file-transfer (0.3.3):
+    - Cordova (>= 3.0.0)
+    - Cordova/Plugins/File
+  - CordovaPlugin-geolocation (0.3.2):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-globalization (0.2.2):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-inappbrowser (0.2.4):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-media (0.2.4):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-media-capture (0.2.3):
+    - Cordova (>= 3.0.0)
+    - Cordova/Plugins/File
+  - CordovaPlugin-network-information (0.2.3):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-splashscreen (0.2.3):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-vibration (0.3.3):
     - Cordova (>= 3.0.0)
 
 DEPENDENCIES:
-  - Cordova/Plugins/Camera
+  - Cordova/Plugins
 
 SPEC CHECKSUMS:
   Cordova: d228f72b7c7e5823af9a8b6645f868daf81e6398
+  CordovaPlugin-battery-status: 6fe419f79b4269af890d946ce587a38e964fe238
   CordovaPlugin-camera: 18400d49cff7c7ea6e06afa03a82637e2c7f6303
+  CordovaPlugin-console: 3f7a0d197b6b0033686781fa8d79e75e4396f0bf
+  CordovaPlugin-contacts: 6cfd68a9338997faa5c69390c4bd987bb68fe6c6
+  CordovaPlugin-device: 1bf9ca438d7e64a34b30d61bbb5239ab3e3ca732
+  CordovaPlugin-device-motion: 85a572161f66edb9fbb6863b59b00445afcd08a9
+  CordovaPlugin-device-orientation: 09d97c66818e6cf207eb03f59724cd5b296c2adf
+  CordovaPlugin-dialogs: c3dd9c7a352beaf0ac556aa2462c473bf047ead4
+  CordovaPlugin-file: d396ec83b62e5cb5e0b2d27504bfd7bfad6bf181
+  CordovaPlugin-file-transfer: 956aa589977ea2dcd4f6d4c9709343e5c20d8bf2
+  CordovaPlugin-geolocation: bdf392c2171daed8414b3cdd9515a02d9b5a9f8d
+  CordovaPlugin-globalization: 653fd00f69a4635a205ac3a62d0f5866eafb67dd
+  CordovaPlugin-inappbrowser: 052b828069e25b02451c961fd16f093ebae5c0ab
+  CordovaPlugin-media: 0019184d736813d86c50325ba6bcb53eb58b3f66
+  CordovaPlugin-media-capture: 7d2c0c3c62d12e56ab942c9381f9ba4b57b984f1
+  CordovaPlugin-network-information: 33f970bc7ae53c478a7eeb4bee6c021e1847d6d3
+  CordovaPlugin-splashscreen: 45a693c5f4f204433438c1cec2c6b8a4dc377d15
+  CordovaPlugin-vibration: e3c57568c35a53ac07db4da21ae994d229a2957d
 
 COCOAPODS: 0.25.0

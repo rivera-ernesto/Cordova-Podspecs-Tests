@@ -18,15 +18,225 @@
 #define COCOAPODS_VERSION_MINOR_Cordova_Base 1
 #define COCOAPODS_VERSION_PATCH_Cordova_Base 0
 
+// Cordova/Plugins
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins 0
+
+// Cordova/Plugins/BatteryStatus
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_BatteryStatus
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_BatteryStatus 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_BatteryStatus 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_BatteryStatus 0
+
 // Cordova/Plugins/Camera
 #define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Camera
 #define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Camera 3
 #define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Camera 1
 #define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Camera 0
 
+// Cordova/Plugins/Console
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Console
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Console 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Console 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Console 0
+
+// Cordova/Plugins/Contacts
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Contacts
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Contacts 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Contacts 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Contacts 0
+
+// Cordova/Plugins/Device
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Device
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Device 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Device 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Device 0
+
+// Cordova/Plugins/DeviceMotion
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_DeviceMotion
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_DeviceMotion 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_DeviceMotion 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_DeviceMotion 0
+
+// Cordova/Plugins/DeviceOrientation
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_DeviceOrientation
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_DeviceOrientation 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_DeviceOrientation 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_DeviceOrientation 0
+
+// Cordova/Plugins/Dialogs
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Dialogs
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Dialogs 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Dialogs 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Dialogs 0
+
+// Cordova/Plugins/File
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_File
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_File 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_File 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_File 0
+
+// Cordova/Plugins/FileTransfer
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_FileTransfer
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_FileTransfer 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_FileTransfer 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_FileTransfer 0
+
+// Cordova/Plugins/Geolocation
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Geolocation
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Geolocation 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Geolocation 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Geolocation 0
+
+// Cordova/Plugins/Globalization
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Globalization
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Globalization 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Globalization 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Globalization 0
+
+// Cordova/Plugins/InAppBrowser
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_InAppBrowser
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_InAppBrowser 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_InAppBrowser 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_InAppBrowser 0
+
+// Cordova/Plugins/Media
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Media
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Media 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Media 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Media 0
+
+// Cordova/Plugins/MediaCapture
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_MediaCapture
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_MediaCapture 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_MediaCapture 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_MediaCapture 0
+
+// Cordova/Plugins/NetworkInformation
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_NetworkInformation
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_NetworkInformation 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_NetworkInformation 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_NetworkInformation 0
+
+// Cordova/Plugins/Splashscreen
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Splashscreen
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Splashscreen 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Splashscreen 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Splashscreen 0
+
+// Cordova/Plugins/Vibration
+#define COCOAPODS_POD_AVAILABLE_Cordova_Plugins_Vibration
+#define COCOAPODS_VERSION_MAJOR_Cordova_Plugins_Vibration 3
+#define COCOAPODS_VERSION_MINOR_Cordova_Plugins_Vibration 1
+#define COCOAPODS_VERSION_PATCH_Cordova_Plugins_Vibration 0
+
+// CordovaPlugin-battery-status
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_battery_status
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_battery_status 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_battery_status 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_battery_status 3
+
 // CordovaPlugin-camera
 #define COCOAPODS_POD_AVAILABLE_CordovaPlugin_camera
 #define COCOAPODS_VERSION_MAJOR_CordovaPlugin_camera 0
 #define COCOAPODS_VERSION_MINOR_CordovaPlugin_camera 2
 #define COCOAPODS_VERSION_PATCH_CordovaPlugin_camera 3
+
+// CordovaPlugin-console
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_console
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_console 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_console 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_console 3
+
+// CordovaPlugin-contacts
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_contacts
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_contacts 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_contacts 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_contacts 4
+
+// CordovaPlugin-device
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_device
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_device 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_device 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_device 3
+
+// CordovaPlugin-device-motion
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_device_motion
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_device_motion 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_device_motion 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_device_motion 2
+
+// CordovaPlugin-device-orientation
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_device_orientation
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_device_orientation 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_device_orientation 3
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_device_orientation 1
+
+// CordovaPlugin-dialogs
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_dialogs
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_dialogs 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_dialogs 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_dialogs 2
+
+// CordovaPlugin-file
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_file
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_file 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_file 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_file 4
+
+// CordovaPlugin-file-transfer
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_file_transfer
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_file_transfer 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_file_transfer 3
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_file_transfer 3
+
+// CordovaPlugin-geolocation
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_geolocation
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_geolocation 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_geolocation 3
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_geolocation 2
+
+// CordovaPlugin-globalization
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_globalization
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_globalization 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_globalization 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_globalization 2
+
+// CordovaPlugin-inappbrowser
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_inappbrowser
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_inappbrowser 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_inappbrowser 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_inappbrowser 4
+
+// CordovaPlugin-media
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_media
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_media 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_media 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_media 4
+
+// CordovaPlugin-media-capture
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_media_capture
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_media_capture 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_media_capture 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_media_capture 3
+
+// CordovaPlugin-network-information
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_network_information
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_network_information 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_network_information 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_network_information 3
+
+// CordovaPlugin-splashscreen
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_splashscreen
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_splashscreen 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_splashscreen 2
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_splashscreen 3
+
+// CordovaPlugin-vibration
+#define COCOAPODS_POD_AVAILABLE_CordovaPlugin_vibration
+#define COCOAPODS_VERSION_MAJOR_CordovaPlugin_vibration 0
+#define COCOAPODS_VERSION_MINOR_CordovaPlugin_vibration 3
+#define COCOAPODS_VERSION_PATCH_CordovaPlugin_vibration 3
 
