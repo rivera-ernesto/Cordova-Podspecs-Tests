@@ -51,6 +51,7 @@
 		D4849D6C2E744B5D8EA25B78 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E54EBF5F74431871989C3 /* CDVNotification.m */; };
 		BF0F6E4E0E574A8CB1E4E7EB /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E65279B3399447BDADC57906 /* CDVNotification.bundle */; };
 		DFD7D13FC1B54F2A93E78301 /* AudioToolbox.framework in Resources */ = {isa = PBXBuildFile; fileRef = D9050C9A620249F9A6053142 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0A7552A63D20424185E5FF6F /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA55A539EA240809879B886 /* CDVVibration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,8 @@
 		2416201E956B4A3685761ACA /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		E65279B3399447BDADC57906 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
 		D9050C9A620249F9A6053142 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7DA55A539EA240809879B886 /* CDVVibration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVVibration.m"; path = "org.apache.cordova.vibration/CDVVibration.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		60D0E9B642884F708243FC4A /* CDVVibration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVVibration.h"; path = "org.apache.cordova.vibration/CDVVibration.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +297,8 @@
 				74C1606E040A4A55B7BC03DB /* CDVFileTransfer.h */,
 				9F5E54EBF5F74431871989C3 /* CDVNotification.m */,
 				2416201E956B4A3685761ACA /* CDVNotification.h */,
+				7DA55A539EA240809879B886 /* CDVVibration.m */,
+				60D0E9B642884F708243FC4A /* CDVVibration.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -477,6 +482,7 @@
 				E424F10C10B34C38846247B0 /* CDVSound.m in Sources */,
 				17B234E91CD84D69B51238B0 /* CDVFileTransfer.m in Sources */,
 				D4849D6C2E744B5D8EA25B78 /* CDVNotification.m in Sources */,
+				0A7552A63D20424185E5FF6F /* CDVVibration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
