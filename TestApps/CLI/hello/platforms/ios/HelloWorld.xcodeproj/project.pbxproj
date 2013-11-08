@@ -52,6 +52,10 @@
 		BF0F6E4E0E574A8CB1E4E7EB /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E65279B3399447BDADC57906 /* CDVNotification.bundle */; };
 		DFD7D13FC1B54F2A93E78301 /* AudioToolbox.framework in Resources */ = {isa = PBXBuildFile; fileRef = D9050C9A620249F9A6053142 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		0A7552A63D20424185E5FF6F /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA55A539EA240809879B886 /* CDVVibration.m */; };
+		E67969AD56CB40F6A57DCBFC /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 144533F464C143CA8AC7EA33 /* CDVContacts.m */; };
+		355D10BE129C47BB9AAC1D8C /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F93BABD8C8BB42B3A920DF24 /* CDVContact.m */; };
+		118675D7C58B4C088B9A0E7B /* AddressBook.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1959F5F17A7D452CA6FB25C2 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AC0F8AB17CF24C93B9DF7E4D /* AddressBookUI.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4B685C591DFC463E9FA1F6A7 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +144,12 @@
 		D9050C9A620249F9A6053142 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		7DA55A539EA240809879B886 /* CDVVibration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVVibration.m"; path = "org.apache.cordova.vibration/CDVVibration.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		60D0E9B642884F708243FC4A /* CDVVibration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVVibration.h"; path = "org.apache.cordova.vibration/CDVVibration.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		144533F464C143CA8AC7EA33 /* CDVContacts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVContacts.m"; path = "org.apache.cordova.contacts/CDVContacts.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F93BABD8C8BB42B3A920DF24 /* CDVContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVContact.m"; path = "org.apache.cordova.contacts/CDVContact.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EC6638A689094EB099B3B6B1 /* CDVContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVContacts.h"; path = "org.apache.cordova.contacts/CDVContacts.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		36F501A3C44E40F1BC0C5999 /* CDVContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVContact.h"; path = "org.apache.cordova.contacts/CDVContact.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1959F5F17A7D452CA6FB25C2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		4B685C591DFC463E9FA1F6A7 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBookUI.framework"; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,8 @@
 				58ED59C263D742A58BCFB84B /* SystemConfiguration.framework in Resources */,
 				0FEDC863C1344376A1FCDD23 /* CoreMotion.framework in Resources */,
 				DFD7D13FC1B54F2A93E78301 /* AudioToolbox.framework in Resources */,
+				118675D7C58B4C088B9A0E7B /* AddressBook.framework in Resources */,
+				AC0F8AB17CF24C93B9DF7E4D /* AddressBookUI.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +265,8 @@
 				0A480A86CF084C01B197B8D4 /* SystemConfiguration.framework */,
 				A6B652C90CD4480388E0A6F2 /* CoreMotion.framework */,
 				D9050C9A620249F9A6053142 /* AudioToolbox.framework */,
+				1959F5F17A7D452CA6FB25C2 /* AddressBook.framework */,
+				4B685C591DFC463E9FA1F6A7 /* AddressBookUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -299,6 +313,10 @@
 				2416201E956B4A3685761ACA /* CDVNotification.h */,
 				7DA55A539EA240809879B886 /* CDVVibration.m */,
 				60D0E9B642884F708243FC4A /* CDVVibration.h */,
+				144533F464C143CA8AC7EA33 /* CDVContacts.m */,
+				F93BABD8C8BB42B3A920DF24 /* CDVContact.m */,
+				EC6638A689094EB099B3B6B1 /* CDVContacts.h */,
+				36F501A3C44E40F1BC0C5999 /* CDVContact.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -483,6 +501,8 @@
 				17B234E91CD84D69B51238B0 /* CDVFileTransfer.m in Sources */,
 				D4849D6C2E744B5D8EA25B78 /* CDVNotification.m in Sources */,
 				0A7552A63D20424185E5FF6F /* CDVVibration.m in Sources */,
+				E67969AD56CB40F6A57DCBFC /* CDVContacts.m in Sources */,
+				355D10BE129C47BB9AAC1D8C /* CDVContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
