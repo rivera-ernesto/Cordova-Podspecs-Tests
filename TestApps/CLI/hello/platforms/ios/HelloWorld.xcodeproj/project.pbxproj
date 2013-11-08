@@ -56,6 +56,7 @@
 		355D10BE129C47BB9AAC1D8C /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F93BABD8C8BB42B3A920DF24 /* CDVContact.m */; };
 		118675D7C58B4C088B9A0E7B /* AddressBook.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1959F5F17A7D452CA6FB25C2 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AC0F8AB17CF24C93B9DF7E4D /* AddressBookUI.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4B685C591DFC463E9FA1F6A7 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9D5F0E99B3E34185A7FF7D39 /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 581AEF9B497A48369D0245E5 /* CDVGlobalization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +151,8 @@
 		36F501A3C44E40F1BC0C5999 /* CDVContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVContact.h"; path = "org.apache.cordova.contacts/CDVContact.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		1959F5F17A7D452CA6FB25C2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		4B685C591DFC463E9FA1F6A7 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBookUI.framework"; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		581AEF9B497A48369D0245E5 /* CDVGlobalization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVGlobalization.m"; path = "org.apache.cordova.globalization/CDVGlobalization.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6AAEDD4686AE420B97D3A284 /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVGlobalization.h"; path = "org.apache.cordova.globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +320,8 @@
 				F93BABD8C8BB42B3A920DF24 /* CDVContact.m */,
 				EC6638A689094EB099B3B6B1 /* CDVContacts.h */,
 				36F501A3C44E40F1BC0C5999 /* CDVContact.h */,
+				581AEF9B497A48369D0245E5 /* CDVGlobalization.m */,
+				6AAEDD4686AE420B97D3A284 /* CDVGlobalization.h */,
 			);
 			name = Plugins;
 			path = "HelloWorld/Plugins";
@@ -503,6 +508,7 @@
 				0A7552A63D20424185E5FF6F /* CDVVibration.m in Sources */,
 				E67969AD56CB40F6A57DCBFC /* CDVContacts.m in Sources */,
 				355D10BE129C47BB9AAC1D8C /* CDVContact.m in Sources */,
+				9D5F0E99B3E34185A7FF7D39 /* CDVGlobalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
